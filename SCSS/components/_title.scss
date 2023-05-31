@@ -1,3 +1,4 @@
+@use "../utils/vars" as *;
 .title {
   text-align: left;
   align-items: center;
@@ -7,7 +8,7 @@
   display: flex;
 
   &__line {
-    border: 1px solid #000000;
+    border: 1px solid $darkFontCl;
     width: 100%;
   }
 }
